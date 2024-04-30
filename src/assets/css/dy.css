@@ -1,0 +1,1215 @@
+/* 登陆页 */
+.dy-login-container-div {
+    min-height: 100vh;
+    align-items: center;
+    background: url(~@/assets/img/login-bg.png);
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+/* 登陆页 登陆表单 */
+.dy-login-el-form {
+    padding: 80px 6%;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    margin: 0;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    background: #fff;
+    display: flex;
+    width: 35%;
+    height: auto;
+}
+
+/* 登陆页 登陆表单 title */
+.dy-login-title-container-div {
+    margin: 0 0 10px 0;
+    color: #000;
+    background-color: floralwhite;
+    text-align: center;
+    width: 100%;
+    line-height: 44px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* 登陆页 登陆表单 表单项 */
+.dy-login-list-item-div {
+    width: 80%;
+    margin: 20px auto 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+/* 登陆页 登陆表单 表单项  */
+.dy-login-list-type-div {
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    height: 44px;
+  
+}
+
+/* 登陆页 登陆表单 表单项 lable */
+.dy-login-list-item-lable-div {
+    width: 64px;
+    line-height: 44px;
+    font-size: 14px;
+    color: rgba(64, 158, 255, 1);
+}
+
+/* 登陆页 登陆表单 表单项 文本框 */
+.dy-login-list-item-div .el-input .el-input__inner {
+    border: none;
+    padding: 0 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1);
+    color: #000;
+    width: 100%;
+    font-size: 14px;
+    height: 44px;
+}
+
+/* 登陆页 登陆表单 表单项 单选框 input */
+.dy-login-list-type-div .el-radio__input .el-radio__inner {
+    background: rgba(53, 53, 53, 0);
+    border-color: #666666;
+}
+
+/* 登陆页 登陆表单 表单项 单选框 input 被选中 */
+.dy-login-list-type-div .el-radio__input.is-checked .el-radio__inner {
+    background: #09acec;
+    border-color: #09acec;
+}
+
+/* 登陆页 登陆表单 表单项 单选框 label */
+.dy-login-list-type-div .el-radio__label {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* 登陆页 登陆表单 表单项 单选框 label 被选中 */
+.dy-login-list-type-div .el-radio__input.is-checked+.el-radio__label {
+    color: #09acec;
+    font-size: 14px;
+}
+
+/* 登陆页 登陆表单 表单项 按钮 */
+.dy-login-list-button-div {
+    width: 100%;
+    margin: 20px auto;
+    align-items: left;
+    justify-content: center;
+    display: flex;
+}
+
+/* 登陆页 登陆表单 登陆按钮 */
+.dy-login-login-button,
+.dy-login-login-button:hover {
+    border: 0;
+    border-radius: 0;
+    padding: 0 24px;
+    margin: 0 10px;
+    outline: none;
+    color: #fff;
+    background: #4662A1;
+    width: auto;
+    min-width: 140px;
+    font-size: 18px;
+    height: 70px;
+}
+
+/* 登陆页 登陆表单 注册按钮 */
+.dy-login-register-button,
+.dy-login-register-button:hover {
+    border: 0px solid rgba(64, 158, 255, 1);
+    border-radius: 0;
+    padding: 0;
+    margin: 0 10px;
+    outline: none;
+    color: #969696;
+    background: #DFDFDF;
+    width: auto;
+    min-width: 140px;
+    font-size: 18px;
+    height: 70px;
+}
+
+/* 注册页 */
+.dy-register-container-div {
+    min-height: 100vh;
+    align-items: center;
+    background: url(~@/assets/img/register-bg.png);
+    display: flex;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+/* 注册页 注册表单 */
+.dy-register-el-form {
+    padding: 80px 0;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    margin: 0;
+    border-radius: 50px;
+    background: #fff;
+    width: 700px;
+    height: auto;
+}
+
+/* 注册页 注册表单 title */
+.dy-register-title-container-div {
+    width: 100%;
+    margin: 0 0 10px 0;
+    line-height: 70px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    background-color: floralwhite;
+    text-align: center;
+}
+
+/* 注册页 注册表单 表单项 */
+.dy-register-el-form-item {
+    padding: 0;
+    margin: 0 auto 24px;
+    width: 80%;
+    height: auto;
+
+    .el-form-item__label {
+        color: #000;
+    }
+}
+
+/* 注册页 注册表单 表单项 单行文本框 */
+.dy-register-el-form-item .el-input .el-input__inner {
+    border: 0;
+    border-radius: 0;
+    padding: 0 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    height: 44px;
+}
+
+/* 注册页 注册表单 表单项 多行文本框 */
+.dy-register-el-form-item .el-textarea .el-textarea__inner {
+    border: 0;
+    border-radius: 0;
+    padding: 0 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    resize: none;
+}
+
+/* 注册页 注册表单 表单项 下拉框 */
+.dy-register-el-form-item .el-select .el-input__inner {
+    border: 0;
+    border-radius: 0;
+    padding: 0 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    outline: none;
+    color: #000;
+    font-size: 14px;
+    height: 44px;
+}
+
+/* 注册页 注册表单 表单项 日期时间选择器 */
+.dy-register-el-form-item .el-date-editor .el-input__inner {
+    border: 0;
+    border-radius: 0;
+    padding: 0 10px 0 30px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    outline: none;
+    color: #000;
+    width: 100%;
+    font-size: 14px;
+    height: 44px;
+}
+
+/* 注册页 注册表单 表单项 上传组件 */
+.dy-register-el-form-item .el-upload--picture-card {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    line-height: initial;
+    vertical-align: middle;
+}
+
+
+/* 注册页 注册表单 表单项 上传组件 上传图片 item */
+.dy-register-el-form-item .el-upload-list .el-upload-list__item {
+    border: 1px dashed #888;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #888;
+    width: 160px;
+    font-size: 32px;
+    line-height: 160px;
+    text-align: center;
+    height: 160px;
+}
+
+/* 注册页 注册表单 表单项 上传组件 plus icon */
+.dy-register-el-form-item .el-upload .el-icon-plus {
+    border: 1px dashed #888;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #888;
+    width: 160px;
+    font-size: 32px;
+    line-height: 160px;
+    text-align: center;
+    height: 160px;
+}
+
+/* 注册页 注册按钮 */
+.dy-registe-register-button,
+.dy-registe-register-button:hover {
+    border: 0;
+    border-radius: 0;
+    padding: 0 10px;
+    box-shadow: 0 0 0px rgba(64, 158, 255, .5);
+    margin: 20px auto 5px;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    display: block;
+    width: 60%;
+    font-size: 18px;
+    height: 70px;
+}
+
+/* 注册页 返回登陆 */
+.dy-registe-login-div {
+    cursor: pointer;
+    padding: 0 10%;
+    margin: 5px auto;
+    color: rgba(159, 159, 159, 1);
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/* 后台 左侧菜单栏容器 */
+.dy-index-aside {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    overflow: hidden;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    background: #AFB7CB;
+    width: 210px;
+    font-size: 0px;
+    position: fixed;
+    height: calc(100% - 60px);
+    z-index: 1001;
+}
+
+/* 后台 左侧菜单栏容器 */
+.dy-index-aside-el-menu {
+    border: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    background: transparent;
+
+    /* 下拉菜单*/
+    .el-submenu {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    /* 下拉菜单 菜单项*/
+    .el-submenu .el-submenu__title {
+        cursor: pointer;
+        padding: 0 20px;
+        color: #000;
+        white-space: nowrap;
+        background: #AFB7CB;
+        display: flex;
+        border-color: #D8D8D8;
+        border-width: 0 0 1px;
+        justify-content: left;
+        align-items: center;
+        position: relative;
+        border-style: solid;
+    }
+
+    /* 下拉菜单 鼠标悬浮*/
+    .el-submenu .el-submenu__title:hover {
+        color: #fff;
+        background: url(~@/assets/img/index-menu-bg.png) center center/cover no-repeat;
+    }
+
+    /* 下拉二级菜单 */
+    .el-submenu .el-menu .el-menu-item {
+        padding: 0 40px;
+        color: #A2A2A2;
+        background: linear-gradient(90deg, #F9F9F9 0%, #F9F9F9 3%, #4662A1 3%, #4662A1 5%, #F9F9F9 5%, #F9F9F9 100%);
+        border-color: #fff;
+        border-width: 0 0 2px;
+        line-height: 50px;
+        border-style: solid;
+        text-align: left;
+        height: 50px;
+    }
+
+    /* 下拉二级菜单 鼠标悬浮以及被激活 */
+    .el-submenu .el-menu .el-menu-item:hover,
+    .el-submenu .el-menu .el-menu-item.is-active {
+        padding: 0 40px;
+        color: #fff;
+        background: linear-gradient(90deg, #4662A1 0%, #4662A1 3%, #F9F9F9 3%, #F9F9F9 5%, #4662A1 5%, #4662A1 100%);
+        line-height: 50px;
+        height: 50px;
+    }
+
+}
+
+/* 下拉菜单图标*/
+.dy-index-el-submenu-item-i {
+    width: 34px;
+    vertical-align: middle;
+    margin: 0 3px;
+    font-size: 18px;
+    color: #000 !important;
+    text-align: center;
+}
+
+/* 下拉菜单标题 */
+.dy-index-el-submenu-item-span {
+    color: inherit;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+
+/* 后台 右侧主展示容器 */
+.dy-index-main {
+    min-height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+/* 后台 头部信息展示容器 */
+.dy-index-header {
+    background: #4662A1;
+    box-shadow: 0 1px 6px rgba(64, 158, 255, .2);
+    padding: 0px 60px 0px 40px;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    z-index: 1002;
+}
+
+/* 后台 头部 项目logo*/
+.dy-index-header-logo {
+    margin: 0 10px;
+    object-fit:cover;
+    border-radius:100%;
+    float:left;
+    width:44px;
+    height:44px;
+}
+
+/* 后台 头部 项目名称*/
+.dy-index-header-title-span {
+    padding: 0 0 0 12px;
+    line-height: 44px;
+    color: #fff;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 后台 头部 右侧信息*/
+.dy-index-header-right-div {
+    position: absolute;
+    right: 100px;
+    top: 8px;
+    display: flex;
+}
+
+/* 后台 头部 右侧 登陆用户信息*/
+.dy-index-header-right-usersinfo-div {
+    margin: 0 10px;
+    line-height: 44px;
+    color: #60e669;
+}
+
+/* 后台 头部 右侧 登陆用户余额信息*/
+.dy-index-header-right-usersmoney-div {
+    margin: 0 5px;
+    line-height: 44px;
+    color: #ff00ff;
+}
+
+/* 后台 头部 右侧 退出*/
+.dy-index-header-right-logout-div {
+    cursor: pointer;
+    margin: 0 5px;
+    line-height: 44px;
+    color: #fff;
+}
+
+/* 后台 页面面包屑  */
+.dy-index-breadcrumb {
+    padding: 0 20px;
+    margin: 80px auto 10px 240px;
+    border-color: #eee;
+    border-width: 0;
+    align-items: center;
+    background: #4662A1;
+    display: flex;
+    width: calc(100% - 270px);
+    height: 40px;
+
+    /* 面包屑 分隔符 */
+    .el-breadcrumb .el-breadcrumb__separator {
+        margin: 0 9px;
+        color: #f0e;
+        font-weight: 500;
+    }
+
+    /* 面包屑 首页链接 */
+    .el-breadcrumb .el-breadcrumb__inner a {
+        color: #fff;
+        display: inline-block;
+    }
+
+    /* 面包屑 首页链接 鼠标悬浮 */
+    .el-breadcrumb .el-breadcrumb__inner a:hover {
+        color: #f00;
+        display: inline-block;
+    }
+
+    /* 面包屑 当前页 */
+    .el-breadcrumb .el-breadcrumb__inner {
+        color: #fff !important;
+        display: inline-block;
+    }
+}
+
+/* 系统 框架页 */
+.dy-admin-router-view-div {
+    padding: 30px 30px 30px 240px;
+    background: url(~@/assets/img/index-main-bg.png) center center/cover fixed no-repeat;
+    height: calc(100vh - 120px);
+}
+
+/* 后台首页 欢迎标题 */
+.dy-home-title-div {
+    margin: 50px auto;
+    font-size: 24px;
+    color: skyblue;
+    text-align: center;
+}
+
+/* 后台首页 欢迎标题 */
+.dy-home-title-div-2 {
+    margin: 50px auto;
+    font-size: 33px;
+    color:rgb(51, 51, 51);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 添加、修改及详情页 表单 */
+.dy-add-set-detail-el-form {
+    padding: 30px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3020);
+    background: #fff;
+    display: flex;
+    border-radius: 6px;
+    flex-wrap: wrap;
+
+    /*表单项 label*/
+    .el-form-item .el-form-item__label {
+        padding: 0 10px 0 0;
+        color: #000;
+        font-weight: 500;
+        width: 100px;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: right;
+    }
+
+    /*表单项 content*/
+    .el-form-item .el-form-item__content {
+        margin-left: 100px;
+        width: 400px;
+    }
+
+    /*表单项 单行文本框*/
+    .el-input .el-input__inner {
+        border: 2px solid #4662A1;
+        border-radius: 0;
+        padding: 0 12px;
+        box-shadow: 0 0 0px rgba(64, 158, 255, .5);
+        outline: none;
+        color: #000;
+        width: 400px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /*表单项 下拉框*/
+    .el-select .el-input__inner {
+        border: 2px solid #4662A1 !important;
+        border-radius: 0;
+        padding: 0 10px;
+        box-shadow: 0 0 0px rgba(64, 158, 255, .5);
+        outline: none;
+        color: #000;
+        width: 200px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /*表单项 日期选择器*/
+    .el-date-editor .el-input__inner {
+        border: 2px solid #4662A1;
+        border-radius: 0;
+        padding: 0 10px 0 30px;
+        box-shadow: 0 0 0px rgba(64, 158, 255, .5);
+        outline: none;
+        color: #000;
+        width: 200px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /*表单项 图片上传 图片*/
+    .el-upload--picture-card {
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        line-height: initial;
+        vertical-align: middle;
+    }
+
+    /*表单项 图片上传 图片项*/
+    .el-upload-list .el-upload-list__item {
+        border: 2px dashed #4662A1;
+        cursor: pointer;
+        border-radius: 6px;
+        color: #4662A1;
+        width: 90px;
+        font-size: 32px;
+        line-height: 90px;
+        text-align: center;
+        height: 90px;
+    }
+
+    /*表单项 图片上传框*/
+    .el-upload .el-icon-plus {
+        border: 2px dashed #4662A1;
+        cursor: pointer;
+        border-radius: 6px;
+        color: #4662A1;
+        width: 90px;
+        font-size: 32px;
+        line-height: 90px;
+        text-align: center;
+        height: 90px;
+    }
+
+    /*表单项 多行大文本框*/
+    .el-textarea .el-textarea__inner {
+        border: 2px solid #4662A1;
+        border-radius: 0;
+        padding: 12px;
+        box-shadow: 0 0 0px rgba(64, 158, 255, .5);
+        outline: none;
+        color: #000;
+        width: 400px;
+        font-size: 14px;
+        height: 120px;
+    }
+}
+
+/* 添加、修改及详情页 表单项 */
+.dy-add-set-detail-el-form-item {
+    width: 50%;
+    margin: 10px 0 30px 0;
+}
+
+/* 添加、修改及详情页 表单项 2*/
+.dy-add-set-detail-el-form-item-2 {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+
+/* 添加、修改页和详情页： 提交、修改或确定按钮  */
+.dy-add-button,
+.dy-add-button:hover,
+.dy-add-button:before,
+.dy-add-button:after {
+    border: 0;
+    border-radius: 30px;
+    padding: 0 !important;
+    margin: 0 20px 0 0 !important;
+    outline: none;
+    color: rgba(255, 255, 255, 1) !important;
+    background: #4662A1 !important;
+    width: 128px;
+    line-height: 40px;
+    font-size: 14px;
+    height: 40px;
+}
+
+/* 添加、修改页和详情页： 返回或取消按钮 */
+.dy-back-button,
+.dy-back-button:hover {
+    border: 0px solid rgba(64, 158, 255, 1);
+    padding: 0 !important;
+    margin: 0 !important;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    background: #4662A1;
+    width: 128px;
+    line-height: 40px;
+    font-size: 14px;
+    height: 40px;
+}
+
+/* 详情页: 子表查看按钮 */
+.dy-detail-chakan-button,
+.dy-detail-chakan-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+
+}
+
+/* 详情页: 子表添加按钮 */
+.dy-detail-add-button,
+.dy-detail-add-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+}
+
+
+/* 列表页 搜索表单  */
+.dy-list-search-el-form {
+    margin: 0 0 20px;
+
+    /* 搜索表单 文本框 */
+    .el-input .el-input__inner {
+        border: 1px solid #4662A1;
+        border-radius: 0;
+        padding: 0 12px;
+        box-shadow: 2px 2px 5px 1px #4662A1 inset;
+        outline: none;
+        color: #000;
+        width: 170px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /* 搜索表单 下拉框 */
+    .el-select .el-input__inner {
+        border: 1px solid #4662A1;
+        border-radius: 0;
+        padding: 0 10px;
+        box-shadow: 2px 2px 5px 1px #4662A1 inset;
+        outline: none;
+        color: #000;
+        width: 170px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    /* 搜索表单 日期选择器 */
+    .el-date-editor .el-input__inner {
+        border: 1px solid #4662A1;
+        border-radius: 0;
+        padding: 0 10px 0 30px;
+        box-shadow: 2px 2px 5px 1px #4662A1 inset;
+        outline: none;
+        color: rgba(64, 158, 255, 1);
+        width: 170px;
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+
+/* 列表页 搜索表单 row  */
+.dy-list-search-el-form-row {
+    display: block;
+}
+
+/* 列表页 搜索表单 row 2 */
+.dy-list-search-el-form-row-2 {
+    margin: 40px 0;
+    display: flex;
+}
+
+/* 列表页 搜索表单 项  */
+.dy-list-search-el-form-row-div {
+    margin: 0 10px 30px 0;
+    display: inline-block;
+    background: none;
+    width: auto;
+}
+
+/* 列表页 搜索表单 项 label  */
+.dy-list-search-el-form-row-div-label {
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    color: #000;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    display: inline-block;
+    /* inline-block：显示 none: 不显示 */
+
+}
+
+/*列表页： 数据列表 table  */
+.dy-list-el-table {
+    padding:0;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.3020);
+    border-color:#eee;
+    border-radius:30px;
+    border-width:1px 0 0 1px;
+    background:#fff;
+    width:100%;
+    border-style:solid;
+}
+
+
+/* *列表页： 数据列表 表头  */
+.el-table .el-table__header-wrapper thead {
+    color: #999;
+    font-weight: 500;
+    width: 100%;
+}
+
+.el-table .el-table__header-wrapper thead tr {
+    background: #D4D4D4;
+}
+
+.el-table .el-table__header-wrapper thead tr th {
+    padding: 12px 0;
+    color: #000;
+    background: transparent;
+    border-color: #eee;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    text-align: center;
+}
+
+.el-table .el-table__header-wrapper thead tr th .cell {
+    padding: 0 10px;
+    word-wrap: normal;
+    word-break: break-all;
+    white-space: normal;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 24px;
+    position: relative;
+    text-overflow: ellipsis;
+}
+
+/* *列表页： 数据列表 表主体 tbody  */
+.el-table .el-table__body-wrapper tbody {
+    width: 100%;
+}
+
+.el-table .el-table__body-wrapper tbody tr {
+    background: #fff;
+}
+
+.el-table .el-table__body-wrapper tbody tr td {
+    padding: 12px 0;
+    color: #666;
+    background: #fff;
+    border-color: #6F6F97;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    text-align: center;
+}
+.el-table .el-table__body-wrapper tbody tr:hover td {
+    padding: 12px 0;
+    color: #000;
+    background: #EFEFF0;
+    border-color: #6F6F97;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+}
+
+.el-table .el-table__body-wrapper tbody tr td {
+    padding: 12px 0;
+    color: #666;
+    background: #fff;
+    border-color: #6F6F97;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    text-align: center;
+}
+
+.el-table .el-table__body-wrapper tbody tr td .cell {
+    padding: 0 10px;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: normal;
+    line-height: 24px;
+    text-overflow: ellipsis;
+}
+
+/*列表页 订单总金额 div*/
+
+.dy-list-dingdan-totalamount-div {
+    margin:20px auto 5px 10%;
+    padding:5px 0 5px 0;
+    color:#f00 ;
+    font-weight: bold;
+}
+
+
+/* 列表页 分页组件 */
+.dy-list-el-pagination {
+    margin:20px 0;
+    padding:5px 0 30px 0;
+    white-space: nowrap;
+    width: 80%;
+    color:#333;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* *列表页：  分页组件 上一页按钮  */
+.el-pagination .btn-prev {
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0 5px;
+    color: #666;
+    background: #f4f4f5;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    min-width: 35px;
+    height: 28px;
+}
+
+/* *列表页： 分页组件 下一页按钮  */
+.el-pagination .btn-next {
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0 5px;
+    color: #666;
+    background: #f4f4f5;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    min-width: 35px;
+    height: 28px;
+}
+
+/* *列表页：  分页组件 上一页按钮不可用  */
+.el-pagination .btn-prev:disabled {
+    border: none;
+    cursor: not-allowed;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0 5px;
+    color: #C0C4CC;
+    background: #f4f4f5;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    height: 28px;
+}
+
+/* *列表页：  分页组件 下一页按钮不可用  */
+.el-pagination .btn-next:disabled {
+    border: none;
+    cursor: not-allowed;
+    border-radius: 2px;
+    padding: 0;
+    margin: 0 5px;
+    color: #C0C4CC;
+    background: #f4f4f5;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    height: 28px;
+}
+
+/* *列表页： 分页组件 页码  */
+.el-pagination .el-pager .number {
+    cursor: pointer;
+    padding: 0 4px;
+    margin: 0 5px;
+    color: #666;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 2px;
+    background: #f4f4f5;
+    text-align: center;
+    min-width: 30px;
+    height: 28px;
+}
+
+/* *列表页：  分页组件 页码 鼠标放上去 */
+.el-pagination .el-pager .number:hover {
+    cursor: pointer;
+    padding: 0 4px;
+    margin: 0 5px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 2px;
+    background: #4662A1;
+    text-align: center;
+    min-width: 30px;
+    height: 28px;
+}
+
+/**列表页：  分页组件 当前页码  */
+.el-pagination .el-pager .number.active {
+    cursor: default;
+    padding: 0 4px;
+    margin: 0 5px;
+    color: #FFF;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 2px;
+    background: #4662A1;
+    text-align: center;
+    min-width: 30px;
+    height: 28px;
+}
+
+/* *列表页：  分页组件 页码输入框 */
+.el-pagination .el-pagination__sizes .el-input .el-input__inner {
+    border: 1px solid #DCDFE6;
+    cursor: pointer;
+    padding: 0 25px 0 8px;
+    color: #606266;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 3px;
+    outline: 0;
+    background: #FFF;
+    width: 100%;
+    text-align: center;
+    height: 28px;
+}
+
+/* *列表页：  分页组件 每页条数选择下拉框  */
+.el-pagination .el-pagination__jump .el-input .el-input__inner {
+    border: 1px solid #DCDFE6;
+    cursor: pointer;
+    padding: 0 3px;
+    color: #606266;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 3px;
+    outline: 0;
+    background: #FFF;
+    width: 100%;
+    text-align: center;
+    height: 28px;
+}
+
+
+
+/*列表页： 查询按钮 */
+.dy-list-search-button,
+.dy-list-search-button:hover {
+    border: 1px solid #4662A1;
+    padding: 0 24px !important;
+    margin: 0 10px;
+    box-shadow: 0 2px 0 0 #97C9D6 !important;
+    outline: none;
+    background: #fff !important;
+    color: #4662A1 !important;
+    border-radius: 0;
+    width: auto;
+    font-size: 14px;
+    height: 40px;
+}
+
+/**列表页：  批量删除按钮 */
+.dy-list-batchdelete-button,
+.dy-list-batchdelete-button:hover {
+    border: 1px solid #4662A1 !important;
+    padding: 0 24px !important;
+    box-shadow: 0 2px 0 0 #97C9D6;
+    margin: 0 10px 0 0 !important;
+    outline: none;
+    color: #4662A1 !important;
+    border-radius: 0;
+    background: #fff !important;
+    width: auto !important;
+    font-size: 14px;
+    height: 40px !important;
+}
+
+
+/* *列表页： 审核按钮 */
+.dy-list-shehe-button,
+.dy-list-shehe-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+
+}
+
+/* *列表页： 详情按钮 */
+.dy-list-detail-button,
+.dy-list-detail-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+}
+
+/* *列表页： 修改按钮 */
+.dy-list-update-button,
+.dy-list-update-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+
+}
+
+/* *列表页： 删除按钮 */
+.dy-list-delete-button,
+.dy-list-delete-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+}
+
+/* *列表页： 子表查看按钮 */
+.dy-list-chakan-button,
+.dy-list-chakan-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+
+}
+
+/* *列表页： 子表添加按钮 */
+.dy-list-add-button,
+.dy-list-add-button:hover {
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 0 24px !important;
+    margin: 0 10px 6px 0 !important;
+    outline: none;
+    color: #fff !important;
+    background: #4662A1 !important;
+    width: auto;
+    font-size: 14px !important;
+    height: 32px !important;
+}
+
+
+

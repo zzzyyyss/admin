@@ -1,0 +1,1 @@
+mklink /d .\node_modules  D:\node_modules\admin\node_modules
